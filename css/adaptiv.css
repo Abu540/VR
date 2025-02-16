@@ -1,0 +1,31 @@
+@media (max-width: 933px) {
+  .nav {
+    display: none;
+  }
+  .header-btn {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+}
+@media (max-width: 845px) {
+    .main{
+        flex-direction: column-reverse;
+    }
+    .main img{
+        max-width: 500px;
+    }
+    .main-content{
+        align-items: center;
+
+    }
+    .main-content p{
+        display: none;
+        
+    }
+    .main-content ion-icon{
+        display: none;
+        
+    }
+}
