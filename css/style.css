@@ -24,7 +24,7 @@ h6 {
   color: #fff;
 }
 h1 span {
-  font-size: clamp(2.5rem, 2.375rem + 0.63vw, 2.875rem);
+  font-size:clamp(1.375rem, 0.875rem + 2.5vw, 2.875rem);
   background: rgb(129, 119, 175);
   background: linear-gradient(
     90deg,
@@ -104,7 +104,7 @@ body {
   gap: 30px;
 }
 .main-content h1 {
-  font-size: clamp(2.25rem, 2.042rem + 1.04vw, 2.875rem);
+  font-size:clamp(1.375rem, 0.875rem + 2.5vw, 2.875rem);
 }
 .main-content p {
   max-width: 450px;
@@ -131,12 +131,16 @@ body {
 }
 ion-icon {
   font-size: 50px;
-  color: #C0B7E8;
+  color: #c0b7e8;
 }
-.main img{
+.main img {
   max-width: 800px;
 }
-.main-contact{
+.all {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.main-contact {
   width: 100%;
   padding: 15px;
   border-radius: 100px;
@@ -145,14 +149,31 @@ ion-icon {
   align-items: center;
   background-color: #363052;
 }
-.contact-content{
+.contact-content {
   display: flex;
   flex-direction: column;
   gap: 5px;
-
 }
-.main-contact span{
-  color: white;
- font-size: 90px;
- font-weight:100;
+.main-contact span {
+  color: rgba(255, 255, 255, 0.284);
+  font-size: 90px;
+  font-weight: 100;
 }
+.next-adaptiv {
+  display: none;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #363052;
+}
+.next-adaptiv p{
+  font-size: clamp(0.75rem, 0.708rem + 0.21vw, 0.875rem);
+  font-weight: 400;
+}
+.next-adaptiv img{
+  max-width: 25px;
+   }
+   .next-adaptiv ion-icon{
+    font-size: 35px;
+    color: white;
+   }
