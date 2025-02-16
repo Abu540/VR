@@ -111,6 +111,7 @@ body {
   font-size: clamp(1.375rem, 0.875rem + 2.5vw, 2.875rem);
 }
 .main-content p {
+  line-height: 25px;
   max-width: 450px;
   font-size: clamp(0.875rem, 0.833rem + 0.21vw, 1rem);
 }
@@ -153,19 +154,29 @@ ion-icon {
   align-items: center;
   background-color: #363052;
 }
+.main-contact img {
+  max-width: 40px;
+}
 .contact-content {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.contact-content h2 {
+  font-size: clamp(1.125rem, 1rem + 0.63vw, 1.5rem);
+}
+.contact-content p {
+  font-size: clamp(0.75rem, 0.708rem + 0.21vw, 0.875rem);
 }
 .main-contact span {
   color: rgba(255, 255, 255, 0.284);
   font-size: 90px;
   font-weight: 100;
 }
+
 .next-adaptiv {
+  width: 100%;
   display: none;
-  justify-content: space-between;
   padding: 10px;
   border-radius: 100px;
   background-color: #363052;
@@ -180,4 +191,78 @@ ion-icon {
 .next-adaptiv ion-icon {
   font-size: 35px;
   color: white;
+}
+
+.about-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 70px;
+}
+.about-content h1 {
+  font-weight: 700;
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
+}
+.about-content h2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 300;
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
+}
+.about-content img {
+  max-width: 100px;
+}
+.lorem {
+  max-width: 652px;
+}
+.lorem p {
+  line-height: 25px;
+  font-weight: 400;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
+}
+.about-next {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.about-next img {
+  max-width: 424px;
+}
+.about-next-contnent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.about-next-contnent h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.about-next-contnent h2 {
+  font-weight: 300;
+  font-size: 36px;
+}
+.about-next-contnent p {
+  line-height: 25px;
+  max-width: 630px;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
+}
+.about-next-contnent button {
+  border: none;
+  font-size: clamp(0.5rem, 0.417rem + 0.42vw, 0.75rem);
+  font-weight: 700;
+  padding: 10px 29px;
+  border-radius: 30px;
+  color: #343045;
+  background: rgb(141, 131, 186);
+  background: linear-gradient(
+    90deg,
+    rgba(141, 131, 186, 1) 41%,
+    rgba(171, 161, 213, 1) 61%
+  );
 }

@@ -40,11 +40,49 @@
   .main-contact {
     display: none;
   }
+  .main-btn button {
+    width: 200px;
+    height: 30px;
+  }
 }
 @media (max-width: 845px) {
   .next-adaptiv {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about-main {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .about-next {
+    flex-direction: column;
+  }
+  .about-next img {
+    width: 100%;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .about-content img {
+    display: none;
+  }
+  .about-main p {
+    display: none;
+  }
+  .about-next .h {
+    display: none;
+  }
+  .about-next-contnent {
+    align-items: center;
+  }
+  .about-next-contnent button {
+    width: 200px;
+    height: 30px;
   }
 }
