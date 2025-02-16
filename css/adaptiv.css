@@ -5,11 +5,20 @@
   .header-btn {
     display: none;
   }
-  .header{
-    justify-content: space-between;
+  .header {
+    gap: 90px;
+  }
+  .header-img {
+    width: 100%;
+  }
+  .header-img img {
+    max-width: 70px;
   }
   .burger-menu {
     display: block;
+  }
+  .main {
+    padding-block: 30px;
   }
 }
 @media (max-width: 845px) {
@@ -17,7 +26,8 @@
     flex-direction: column-reverse;
   }
   .main img {
-width: 100%;  }
+    width: 100%;
+  }
   .main-content {
     align-items: center;
   }
@@ -37,5 +47,4 @@ width: 100%;  }
     justify-content: space-between;
     align-items: center;
   }
- 
 }
