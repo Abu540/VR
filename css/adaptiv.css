@@ -5,6 +5,9 @@
   .header-btn {
     display: none;
   }
+  .header{
+    justify-content: space-between;
+  }
   .burger-menu {
     display: block;
   }
