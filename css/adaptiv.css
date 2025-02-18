@@ -85,4 +85,21 @@
     width: 200px;
     height: 30px;
   }
+
+  .build {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-play {
+    display: block;
+  }
+  .box {
+    display: none;
+  }
+  .cart button {
+    width: 200px;
+    height: 40px;
+  }
 }

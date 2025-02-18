@@ -266,3 +266,74 @@ ion-icon {
     rgba(171, 161, 213, 1) 61%
   );
 }
+
+.build {
+  padding-block: 40px;
+}
+.line {
+  width: 170px;
+  height: 2px;
+  background: #c0b7e854;
+}
+.box-play {
+  display: none;
+}
+.box-content ion-icon {
+  border-radius: 100%;
+  border: none;
+  color: black;
+  background: rgb(141, 131, 186);
+  background: linear-gradient(
+    90deg,
+    rgba(141, 131, 186, 1) 41%,
+    rgba(171, 161, 213, 1) 61%
+  );
+}
+.box-content {
+  display: flex;
+  align-items: center;
+}
+.box-play .cart {
+  display: flex;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-radius: 25px;
+  max-width: 300px;
+  padding: 15px;
+  align-items: center;
+  background-color: #231f32;
+}
+.cart img {
+  border-radius: 90%;
+  padding: 15px;
+  background-color: #1b1928;
+}
+.cart h1 {
+  font-weight: 700;
+  font-size: clamp(1.375rem, 1.333rem + 0.21vw, 1.5rem);
+}
+.cart p {
+  max-width: 250px;
+  font-weight: 400;
+  font-size: clamp(0.625rem, 0.583rem + 0.21vw, 0.75rem);
+}
+.cart button {
+  font-size: clamp(0.5rem, 0.417rem + 0.42vw, 0.75rem);
+  font-weight: 700;
+  padding: 10px 29px;
+  border-radius: 30px;
+  color: #343045;
+  background: rgb(141, 131, 186);
+  background: linear-gradient(
+    90deg,
+    rgba(141, 131, 186, 1) 41%,
+    rgba(171, 161, 213, 1) 61%
+  );
+}
