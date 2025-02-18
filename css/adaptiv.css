@@ -119,11 +119,28 @@
   .box {
     display: none;
   }
-  .box-play{
+  .box-play {
     display: block;
   }
   .box-content {
     justify-content: center;
   }
+  .services-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .services-logo img:nth-child(2) {
+    display: none;
+  }
+  .services-logo img:nth-child(1) {
+    display: none;
+  }
+  .services-logo ion-icon{
+    display: block;
+  }
 }
-
+@media (max-width: 738px) {
+  .services-logo img:nth-child(3) {
+    display: none;
+  }
+}

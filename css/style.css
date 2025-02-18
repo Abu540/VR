@@ -357,7 +357,8 @@ ion-icon {
   border-radius: 160px;
   max-width: 1250px;
   padding: 110px;
-  background: url("../image/services-main.svg");
+  background: url("../image/services-main.svg") center no-repeat;
+  background-size: 100%;
 }
 .services-content h1{
   font-weight: 700;
@@ -388,4 +389,8 @@ ion-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 15px;
+}
+.services-logo ion-icon{
+  display: none;
 }
