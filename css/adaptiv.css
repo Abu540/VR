@@ -102,7 +102,10 @@
 @media (max-width: 1132px) {
   .box .cart:nth-child(4) {
     display: none;
-  }
+      }
+      .services-content{
+        padding: 80px;
+      }
 }
 @media (max-width: 943px) {
   .box .cart:nth-child(3) {
@@ -143,7 +146,10 @@
   .services-logo img:nth-child(3) {
     display: none;
   }
-  /* .icon{
-    margin-bottom: 100px;
-  } */
+ 
+}
+@media (max-width: 475px) {
+  .services-content{
+    padding: 30px;
+  }
 }
