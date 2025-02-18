@@ -92,14 +92,20 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .cart button {
+    width: 200px;
+    height: 40px;
+  }
+}
+@media (max-width: 1094px) {
   .box-play {
     display: block;
   }
   .box {
     display: none;
   }
-  .cart button {
-    width: 200px;
-    height: 40px;
+  .box-content {
+    justify-content: center;
   }
 }
