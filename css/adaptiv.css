@@ -99,14 +99,31 @@
     height: 40px;
   }
 }
-@media (max-width: 1094px) {
-  .box-play {
-    display: block;
+@media (max-width: 1132px) {
+  .cart:nth-child(4) {
+    display: none;
+  }
+}
+@media (max-width: 943px) {
+  .cart:nth-child(3) {
+    display: none;
+  }
+}
+@media (max-width: 549px) {
+  .cart:nth-child(2) {
+    display: none;
+  }
+  .cart:nth-child(1) {
+    display: none;
   }
   .box {
     display: none;
+  }
+  .box-play{
+    display: block;
   }
   .box-content {
     justify-content: center;
   }
 }
+
