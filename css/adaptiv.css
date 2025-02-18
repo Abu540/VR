@@ -100,20 +100,20 @@
   }
 }
 @media (max-width: 1132px) {
-  .cart:nth-child(4) {
+  .box .cart:nth-child(4) {
     display: none;
   }
 }
 @media (max-width: 943px) {
-  .cart:nth-child(3) {
+  .box .cart:nth-child(3) {
     display: none;
   }
 }
 @media (max-width: 549px) {
-  .cart:nth-child(2) {
+  .box .cart:nth-child(2) {
     display: none;
   }
-  .cart:nth-child(1) {
+  .box .cart:nth-child(1) {
     display: none;
   }
   .box {
@@ -135,7 +135,7 @@
   .services-logo img:nth-child(1) {
     display: none;
   }
-  .services-logo ion-icon{
+  .services-logo ion-icon {
     display: block;
   }
 }
@@ -143,4 +143,7 @@
   .services-logo img:nth-child(3) {
     display: none;
   }
+  /* .icon{
+    margin-bottom: 100px;
+  } */
 }
