@@ -434,3 +434,9 @@ ion-icon {
 .circle-content {
   display: flex;
 }
+.circle-content ion-icon:nth-child(2) {
+  display: none;
+}
+.circle-content ion-icon:nth-child(4) {
+  display: none;
+}
