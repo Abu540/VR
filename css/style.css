@@ -28,7 +28,7 @@ button:hover {
   transform: scale(1.1);
 }
 h1 span {
-  font-size: clamp(1.375rem, 0.875rem + 2.5vw, 2.875rem);
+  font-size: 36px;
   background: rgb(129, 119, 175);
   background: linear-gradient(
     90deg,
@@ -113,7 +113,7 @@ body {
   gap: 30px;
 }
 .main-content h1 {
-  font-size: clamp(1.375rem, 0.875rem + 2.5vw, 2.875rem);
+  font-size:clamp(1.375rem, 1.083rem + 1.46vw, 2.25rem);
 }
 .main-content p {
   line-height: 25px;

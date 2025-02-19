@@ -1,6 +1,6 @@
 @media (max-width: 933px) {
   .container {
-    padding-inline: 0;
+    padding-inline: 10px;
   }
   .nav {
     display: none;
@@ -110,6 +110,9 @@
     padding: 80px;
   }
   .circle:nth-child(4) {
+    display: none;
+  }
+  .icon{
     display: none;
   }
 }
