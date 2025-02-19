@@ -1,6 +1,6 @@
 @media (max-width: 933px) {
   .container {
-    padding-inline: 10px;
+    padding-inline: 20;
   }
   .nav {
     display: none;
@@ -107,7 +107,7 @@
     display: none;
   }
   .services-content {
-    padding: 80px;
+    padding: 5px;
   }
   .circle:nth-child(4) {
     display: none;
@@ -125,6 +125,8 @@
   }
 }
 @media (max-width: 549px) {
+  .container{
+  }
   .box .cart:nth-child(2) {
     display: none;
   }
@@ -190,8 +192,4 @@
     display: none;
   }
 }
-@media (max-width: 475px) {
-  .services-content {
-    padding: 30px;
-  }
-}
+
