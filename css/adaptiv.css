@@ -98,17 +98,26 @@
     width: 200px;
     height: 40px;
   }
+  .technolog {
+    display: none;
+  }
 }
 @media (max-width: 1132px) {
   .box .cart:nth-child(4) {
     display: none;
-      }
-      .services-content{
-        padding: 80px;
-      }
+  }
+  .services-content {
+    padding: 80px;
+  }
+  .circle:nth-child(4) {
+    display: none;
+  }
 }
 @media (max-width: 943px) {
   .box .cart:nth-child(3) {
+    display: none;
+  }
+  .circle:nth-child(3) {
     display: none;
   }
 }
@@ -141,15 +150,39 @@
   .services-logo ion-icon {
     display: block;
   }
+  .circle:nth-child(2) {
+    display: none;
+  }
+
+  .iconss {
+    display: none;
+  }
+  .icons-circle {
+    display: block;
+  }
+  .circle-content {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+  }
+  .circle-content ion-icon {
+    color: #433d60;
+    border-radius: 90%;
+    background: rgb(141, 131, 186);
+    background: linear-gradient(
+      90deg,
+      rgba(141, 131, 186, 1) 41%,
+      rgba(171, 161, 213, 1) 61%
+    );
+  }
 }
 @media (max-width: 738px) {
   .services-logo img:nth-child(3) {
     display: none;
   }
- 
 }
 @media (max-width: 475px) {
-  .services-content{
+  .services-content {
     padding: 30px;
   }
 }

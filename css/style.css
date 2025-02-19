@@ -360,15 +360,15 @@ ion-icon {
   background: url("../image/services-main.svg") center no-repeat;
   background-size: 100%;
 }
-.services-content h1{
+.services-content h1 {
   font-weight: 700;
   font-size: clamp(1rem, 0.583rem + 2.08vw, 2.25rem);
 }
-.services-content h2{
+.services-content h2 {
   font-weight: 300;
   font-size: clamp(1.5rem, 1.25rem + 1.25vw, 2.25rem);
 }
-.services ion-icon{
+.services ion-icon {
   border-radius: 100%;
   border: none;
   color: black;
@@ -379,11 +379,10 @@ ion-icon {
     rgba(171, 161, 213, 1) 61%
   );
 }
-.icon{
+.icon {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .services-logo {
   display: flex;
@@ -391,6 +390,47 @@ ion-icon {
   align-items: center;
   gap: 15px;
 }
-.services-logo ion-icon{
+.services-logo ion-icon {
   display: none;
+}
+#technolog {
+  padding-block: 50px;
+}
+.technolog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 0px;
+}
+.technolog-content {
+  margin-top: 50px;
+}
+.technolog-content h1 {
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
+  font-weight: 700;
+}
+.technolog-content h2 {
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+.evors {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle h1 {
+  font-size: 64px;
+  padding: 46px;
+  color: black;
+  background: url("../image/circle.svg") no-repeat;
+}
+.circle-content {
+  display: flex;
 }
