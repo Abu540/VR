@@ -5,7 +5,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue;        */
 }
 
 .container {
@@ -558,3 +558,13 @@ nav {
   width: 4px;
   height: 135px;
 }
+.line-3{
+  margin-top: 50px;
+  width: 1200px;
+  height: 2px;
+  background-color: #403a5f;
+}
+.line-end{
+  padding-top: 30px;
+  display: flex;
+justify-content: center;}

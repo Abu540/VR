@@ -206,6 +206,7 @@
     width: 200px;
     height: 40px;
   }
+  
 }
 
 @media (max-width: 548px) {
@@ -222,3 +223,34 @@
     width: 300px;
   }
 }
+
+@media (max-width: 848px) {
+  .footer img{
+    max-width: 185px;
+  }
+  .log-content{
+    align-items: center;
+  }
+  .footer button {
+    width: 200px;
+    height: 40px;
+  }
+  nav{
+    display: none;
+  }
+  .footer{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .line-2{
+    display: none;
+  }
+  .line-3{
+    width: 100%;
+    align-items: center;
+  }
+  
+  
+}
+
