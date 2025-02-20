@@ -1,6 +1,6 @@
 @media (max-width: 933px) {
   .container {
-    padding-inline: 20;
+    padding-inline: 0;
   }
   .nav {
     display: none;
@@ -112,7 +112,7 @@
   .circle:nth-child(4) {
     display: none;
   }
-  .icon{
+  .icon {
     display: none;
   }
 }
@@ -125,7 +125,7 @@
   }
 }
 @media (max-width: 549px) {
-  .container{
+  .container {
   }
   .box .cart:nth-child(2) {
     display: none;
@@ -192,4 +192,3 @@
     display: none;
   }
 }
-
