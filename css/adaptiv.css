@@ -192,3 +192,33 @@
     display: none;
   }
 }
+@media (max-width: 1100px) {
+  .input {
+    flex-direction: column;
+  }
+  .input2 input {
+    max-width: 500px;
+  }
+  .input3 input {
+    width: 500px;
+  }
+  .how button {
+    width: 200px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 548px) {
+  .line-1 {
+    width: 116px;
+  }
+  .input input {
+    max-width: 300px;
+  }
+  .input2 input {
+    max-width: 300px;
+  }
+  .input3 input {
+    width: 300px;
+  }
+}
